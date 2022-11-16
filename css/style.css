@@ -156,7 +156,7 @@ section{
     top:100%; right: -100%;
     height: calc(100vh - 9.5rem);
     width: 35rem;
-    background: #fff;
+    background: var(--black);
     padding:0 1.5rem;
 }
 
@@ -177,7 +177,7 @@ section{
     top:1rem; right: 1rem;
     font-size: 2rem;
     cursor: pointer;
-    color: var(--black);
+    color: #fff;
 }
 
 .header .cart-items-container .cart-item .fa-times:hover{
@@ -190,7 +190,7 @@ section{
 
 .header .cart-items-container .cart-item .content h3{
     font-size: 2rem;
-    color:var(--black);
+    color:#fff;
     padding-bottom: .5rem;
 }
 
